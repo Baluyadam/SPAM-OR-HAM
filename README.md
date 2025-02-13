@@ -15,12 +15,16 @@ The dataset used in this project consists of labeled text messages, with "spam" 
 Make sure you have the following installed:
 - Python 3.x
 Required libraries:
-- pip install streamlit pandas numpy scikit-learn
+```bash
+pip install streamlit pandas numpy scikit-learn
+``` 
 ## Installation & Usage
 1. Clone this repository or download the source code.
 2. Navigate to the project directory and ensure dependencies are installed.
 3. Run the Streamlit app using:
-- streamlit run app.py
+```bash
+streamlit run app.py
+``` 
 4. Upload the spam.csv dataset and select a model to train.
 5. Enter an email to classify it as Spam or Ham.
 ## Dataset
@@ -29,6 +33,8 @@ The application expects a dataset in CSV format with the following columns:
 - Message: Email text content
 Ensure the dataset follows this format before uploading.
 ## File Structure
-
-
+├── app.py                # Main Streamlit application
+├── spam.csv              # Sample dataset
+├── SPAM OR HAM PREDICTION.ipynb  # Jupyter Notebook with model analysis
+├── README.md             # Project documentation
 
