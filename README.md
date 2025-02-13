@@ -38,7 +38,7 @@ Ensure the dataset follows this format before uploading.
 - ## Sample dataset
 - ├── spam.csv              
 - ## Jupyter Notebook with model analysis
-- ├── SPAM OR HAM PREDICTION.ipynb
+- ├── Spam OR Ham.ipynb
 - ## Project documentation
 - ├── README.md             
 
