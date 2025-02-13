@@ -34,7 +34,7 @@ The application expects a dataset in CSV format with the following columns:
 Ensure the dataset follows this format before uploading.
 ## File Structure
 - ## Main Streamlit application
-- ├── app.py    
+- ├── classi.py    
 - ## Sample dataset
 - ├── spam.csv              
 - ## Jupyter Notebook with model analysis
